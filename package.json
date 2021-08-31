@@ -1,0 +1,26 @@
+{
+  "name": "sendemail",
+  "version": "1.0.0",
+  "description": "Simple Node.js/Express app using Nodemailer to send emails",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UmutNurovic/sendEmail.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UmutNurovic/sendEmail/issues"
+  },
+  "homepage": "https://github.com/UmutNurovic/sendEmail#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.1",
+    "nodemailer": "^6.6.3"
+  }
+}
